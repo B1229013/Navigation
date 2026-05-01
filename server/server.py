@@ -203,3 +203,26 @@ def get_map(session_id: str, format: str = Query(default="json")):
         png = s.topomap.render_png(current_id=s.last_node_id)
         return Response(content=png, media_type="image/png")
     return s.topomap.to_dict(current_node=s.last_node_id, goal_node=s.goal_node)
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
+
+@app.get("/session/{session_id}")
+def get_session(session_id: str):
+    s = _store.get(session_id)
+    if s is None:
+        raise HTTPException(status_code=404, detail={"error": "session_not_found", "detail": session_id})
+    return {
+        "id": s.id,
+        "goal": s.goal,
+        "goal_objects": s.goal_objects,
+        "history": s.history,
+        "pending_question": s.pending_question,
+        "arrived": s.arrived,
+        "last_node_id": s.last_node_id,
+        "goal_node": s.goal_node,
+        "created_at": s.created_at.isoformat(),
+    }
