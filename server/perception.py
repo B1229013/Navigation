@@ -31,15 +31,13 @@ class Perception:
 
     def load(self) -> None:
         from groundingdino.util.inference import load_model
-        from segment_anything import sam_model_registry, SamPredictor
 
         log.info("loading GroundingDINO from %s", GROUNDINGDINO_WEIGHTS)
         self._gd_model = load_model(str(GROUNDINGDINO_CONFIG), str(GROUNDINGDINO_WEIGHTS))
-        log.info("loading SAM from %s", SAM_WEIGHTS)
-        sam = sam_model_registry["vit_h"](checkpoint=str(SAM_WEIGHTS))
-        sam.to(self.device)
-        self._sam_predictor = SamPredictor(sam)
-        log.info("perception loaded on %s", self.device)
+        # SAM is intentionally not loaded: detect() only needs GroundingDINO boxes,
+        # and SAM ViT-H + llama3.2-vision together exceed the 8 GB VRAM budget.
+        self._sam_predictor = None
+        log.info("perception loaded on %s (GroundingDINO only)", self.device)
 
     def detect(self, image_path: str, prompt_classes: List[str]) -> List[Detection]:
         if not prompt_classes:
