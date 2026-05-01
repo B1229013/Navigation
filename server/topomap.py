@@ -48,3 +48,33 @@ class TopoMap:
             "current_node": current_node,
             "goal_node": goal_node,
         }
+
+    def summarize_for_vlm(self, current_id: int) -> str:
+        """Walk from start to current, produce <150-word prose summary for the VLM."""
+        if self.graph.number_of_nodes() == 0:
+            return "No locations visited yet."
+
+        try:
+            start = next(n for n in self.graph.nodes if self.graph.in_degree(n) == 0)
+        except StopIteration:
+            start = 0
+
+        if start == current_id:
+            data = self.graph.nodes[current_id]
+            return f"You are at the starting location. Visible: {data['summary']}."
+
+        try:
+            path = nx.shortest_path(self.graph, source=start, target=current_id)
+        except nx.NetworkXNoPath:
+            path = [current_id]
+
+        parts: List[str] = []
+        for i, nid in enumerate(path):
+            node = self.graph.nodes[nid]
+            label = node["summary"] or ", ".join(node["detected"][:3]) or f"location {nid}"
+            if i == 0:
+                parts.append(f"Started at {label}")
+            else:
+                action = self.graph.edges[path[i - 1], nid]["action"]
+                parts.append(f"{action}, arrived at {label}")
+        return ". ".join(parts) + "."
