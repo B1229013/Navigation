@@ -7,7 +7,7 @@ from typing import Optional
 
 import requests as _requests
 from fastapi import FastAPI, File, HTTPException, Query, UploadFile
-from fastapi.responses import JSONResponse, Response
+from fastapi.responses import FileResponse, JSONResponse, Response
 
 from server.annotator import annotate
 from server.config import OLLAMA_MODEL, OLLAMA_URL, ensure_output_dir
@@ -239,3 +239,15 @@ def get_session(session_id: str):
         "goal_node": s.goal_node,
         "created_at": s.created_at.isoformat(),
     }
+
+
+@app.get("/session/{session_id}/photo/{node_id}.jpg")
+def serve_annotated_photo(session_id: str, node_id: int):
+    s = _store.get(session_id)
+    if s is None:
+        raise HTTPException(status_code=404, detail={"error": "session_not_found", "detail": session_id})
+    out_dir = ensure_output_dir(session_id)
+    p = out_dir / "annotated" / f"{node_id}.jpg"
+    if not p.exists():
+        raise HTTPException(status_code=404, detail={"error": "photo_not_found", "detail": str(p)})
+    return FileResponse(str(p), media_type="image/jpeg")
