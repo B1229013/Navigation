@@ -5,8 +5,8 @@ import logging
 from pathlib import Path
 from typing import Optional
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI, File, HTTPException, Query, UploadFile
+from fastapi.responses import JSONResponse, Response
 
 from server.annotator import annotate
 from server.config import ensure_output_dir
@@ -192,3 +192,14 @@ def post_answer(session_id: str, req: AnswerRequest) -> TurnResponse:
         node_id=s.last_node_id,
         annotated_photo_url=f"/session/{session_id}/photo/{s.last_node_id}.jpg",
     )
+
+
+@app.get("/session/{session_id}/map")
+def get_map(session_id: str, format: str = Query(default="json")):
+    s = _store.get(session_id)
+    if s is None:
+        raise HTTPException(status_code=404, detail={"error": "session_not_found", "detail": session_id})
+    if format == "png":
+        png = s.topomap.render_png(current_id=s.last_node_id)
+        return Response(content=png, media_type="image/png")
+    return s.topomap.to_dict(current_node=s.last_node_id, goal_node=s.goal_node)
