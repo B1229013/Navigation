@@ -2,23 +2,48 @@
 from __future__ import annotations
 
 import logging
+from pathlib import Path
+from typing import Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
 
+from server.annotator import annotate
+from server.config import ensure_output_dir
 from server.goal_decomposer import decompose_goal
-from server.models import StartSessionRequest, StartSessionResponse, ErrorResponse
+from server.models import (
+    ErrorResponse,
+    StartSessionRequest,
+    StartSessionResponse,
+    TurnResponse,
+    VLMAction,
+)
+from server.perception import Perception
 from server.session import SessionStore
+from server.vlm import decide as _vlm_decide_impl
 
 log = logging.getLogger(__name__)
 
 app = FastAPI(title="UniGoal Store-Nav Server")
 
 _store = SessionStore()
+_perception: Optional[Perception] = None
 
 
 def get_store() -> SessionStore:
     return _store
+
+
+def get_perception() -> Perception:
+    global _perception
+    if _perception is None:
+        _perception = Perception()
+        _perception.load()
+    return _perception
+
+
+def vlm_decide(*args, **kwargs):
+    return _vlm_decide_impl(*args, **kwargs)
 
 
 @app.exception_handler(HTTPException)
@@ -43,4 +68,74 @@ def start_session(req: StartSessionRequest) -> StartSessionResponse:
         session_id=s.id,
         guidance="Upload a starting photo so I can see where you are.",
         goal_objects=goal_objects,
+    )
+
+
+@app.post("/session/{session_id}/photo", response_model=TurnResponse)
+async def upload_photo(session_id: str, photo: UploadFile = File(...)) -> TurnResponse:
+    s = _store.get(session_id)
+    if s is None:
+        raise HTTPException(status_code=404, detail={"error": "session_not_found", "detail": session_id})
+    if s.arrived:
+        raise HTTPException(status_code=409, detail={"error": "already_arrived", "detail": "session is complete"})
+    if s.pending_question is not None:
+        raise HTTPException(status_code=409, detail={"error": "answer_pending", "detail": "POST /answer first"})
+
+    out_dir = ensure_output_dir(session_id)
+    photo_bytes = await photo.read()
+    nid_for_path = s.topomap.graph.number_of_nodes()
+    photo_path = out_dir / "photo" / f"{nid_for_path}.jpg"
+    photo_path.write_bytes(photo_bytes)
+
+    perception = get_perception()
+    detections = perception.detect(str(photo_path), s.goal_objects)
+    detected_labels = [d.label for d in detections]
+
+    nid = s.topomap.add_node(photo_path=str(photo_path), detected=detected_labels, summary="")
+    if s.last_node_id is not None:
+        s.topomap.add_edge(s.last_node_id, nid, action=s.last_planned_action or "(unknown)")
+
+    detections_summary = ", ".join(f"{d.label} ({d.score:.2f})" for d in detections) or "(none)"
+    topomap_summary = s.topomap.summarize_for_vlm(current_id=nid)
+
+    vlm_resp = vlm_decide(
+        image_path=str(photo_path),
+        goal=s.goal,
+        goal_objects=s.goal_objects,
+        topomap_summary=topomap_summary,
+        detections_summary=detections_summary,
+        prior_question=None,
+        prior_answer=None,
+    )
+
+    s.topomap.graph.nodes[nid]["summary"] = vlm_resp.vlm_summary
+    s.last_detections = [d.__dict__ for d in detections]
+    s.last_photo_path = str(photo_path)
+    s.last_node_id = nid
+
+    annotated_path = out_dir / "annotated" / f"{nid}.jpg"
+    annotate(str(photo_path), str(annotated_path), detections, banner_text=f"{vlm_resp.action.value}: {vlm_resp.guidance}")
+
+    s.history.append({
+        "kind": "photo",
+        "node_id": nid,
+        "vlm_action": vlm_resp.action.value,
+        "vlm_guidance": vlm_resp.guidance,
+    })
+
+    if vlm_resp.action == VLMAction.ARRIVED:
+        s.arrived = True
+        s.goal_node = nid
+        s.last_planned_action = None
+    elif vlm_resp.action == VLMAction.ASK:
+        s.pending_question = vlm_resp.question
+    else:  # MOVE
+        s.last_planned_action = vlm_resp.guidance
+
+    return TurnResponse(
+        action=vlm_resp.action,
+        guidance=vlm_resp.guidance,
+        question=vlm_resp.question,
+        node_id=nid,
+        annotated_photo_url=f"/session/{session_id}/photo/{nid}.jpg",
     )
