@@ -54,3 +54,14 @@ def test_summarize_single_node():
     a = tm.add_node("a.jpg", ["bread"], "starting view")
     summary = tm.summarize_for_vlm(current_id=a)
     assert "starting view" in summary
+
+
+def test_render_png_returns_nonempty_bytes(tmp_path):
+    tm = TopoMap()
+    a = tm.add_node("a.jpg", [], "")
+    b = tm.add_node("b.jpg", [], "")
+    tm.add_edge(a, b, "forward")
+    png_bytes = tm.render_png(current_id=b)
+    assert isinstance(png_bytes, bytes)
+    assert len(png_bytes) > 100
+    assert png_bytes.startswith(b"\x89PNG")

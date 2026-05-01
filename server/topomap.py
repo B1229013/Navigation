@@ -1,10 +1,14 @@
 """Topological map: nodes are photo locations, edges are movement actions."""
 from __future__ import annotations
 
+import io
 from datetime import datetime
 from typing import List, Optional
 
-import networkx as nx
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt  # noqa: E402
+import networkx as nx  # noqa: E402
 
 
 class TopoMap:
@@ -78,3 +82,21 @@ class TopoMap:
                 action = self.graph.edges[path[i - 1], nid]["action"]
                 parts.append(f"{action}, arrived at {label}")
         return ". ".join(parts) + "."
+
+    def render_png(self, current_id: Optional[int] = None) -> bytes:
+        fig, ax = plt.subplots(figsize=(6, 6))
+        if self.graph.number_of_nodes() == 0:
+            ax.text(0.5, 0.5, "(empty map)", ha="center", va="center")
+        else:
+            pos = nx.spring_layout(self.graph, seed=42)
+            node_colors = ["red" if n == current_id else "lightblue" for n in self.graph.nodes]
+            nx.draw(
+                self.graph, pos, ax=ax, with_labels=True,
+                node_color=node_colors, node_size=600, font_size=10,
+            )
+            edge_labels = {(u, v): d["action"][:20] for u, v, d in self.graph.edges(data=True)}
+            nx.draw_networkx_edge_labels(self.graph, pos, edge_labels=edge_labels, ax=ax, font_size=8)
+        buf = io.BytesIO()
+        fig.savefig(buf, format="png", bbox_inches="tight")
+        plt.close(fig)
+        return buf.getvalue()
