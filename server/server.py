@@ -5,11 +5,12 @@ import logging
 from pathlib import Path
 from typing import Optional
 
+import requests as _requests
 from fastapi import FastAPI, File, HTTPException, Query, UploadFile
 from fastapi.responses import JSONResponse, Response
 
 from server.annotator import annotate
-from server.config import ensure_output_dir
+from server.config import OLLAMA_MODEL, OLLAMA_URL, ensure_output_dir
 from server.goal_decomposer import decompose_goal
 from server.models import (
     AnswerRequest,
@@ -203,6 +204,18 @@ def get_map(session_id: str, format: str = Query(default="json")):
         png = s.topomap.render_png(current_id=s.last_node_id)
         return Response(content=png, media_type="image/png")
     return s.topomap.to_dict(current_node=s.last_node_id, goal_node=s.goal_node)
+
+
+@app.on_event("startup")
+def _check_ollama_and_warm_perception():
+    try:
+        r = _requests.get(f"{OLLAMA_URL}/api/tags", timeout=5)
+        r.raise_for_status()
+        models = [m["name"] for m in r.json().get("models", [])]
+        if not any(m.startswith(OLLAMA_MODEL) for m in models):
+            log.warning("Ollama is reachable but model %s is not pulled. Run `ollama pull %s`.", OLLAMA_MODEL, OLLAMA_MODEL)
+    except Exception as e:
+        log.error("Ollama unreachable at startup: %s. Start it: `sudo systemctl start ollama`.", e)
 
 
 @app.get("/health")
