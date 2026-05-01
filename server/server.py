@@ -12,6 +12,7 @@ from server.annotator import annotate
 from server.config import ensure_output_dir
 from server.goal_decomposer import decompose_goal
 from server.models import (
+    AnswerRequest,
     ErrorResponse,
     StartSessionRequest,
     StartSessionResponse,
@@ -138,4 +139,56 @@ async def upload_photo(session_id: str, photo: UploadFile = File(...)) -> TurnRe
         question=vlm_resp.question,
         node_id=nid,
         annotated_photo_url=f"/session/{session_id}/photo/{nid}.jpg",
+    )
+
+
+@app.post("/session/{session_id}/answer", response_model=TurnResponse)
+def post_answer(session_id: str, req: AnswerRequest) -> TurnResponse:
+    s = _store.get(session_id)
+    if s is None:
+        raise HTTPException(status_code=404, detail={"error": "session_not_found", "detail": session_id})
+    if s.pending_question is None:
+        raise HTTPException(status_code=409, detail={"error": "no_question_pending", "detail": "no question is open"})
+    if s.last_photo_path is None or s.last_node_id is None:
+        raise HTTPException(status_code=409, detail={"error": "no_prior_photo", "detail": "answer requires a prior photo"})
+
+    detections_summary = ", ".join(
+        f"{d['label']} ({d['score']:.2f})" for d in s.last_detections
+    ) or "(none)"
+    topomap_summary = s.topomap.summarize_for_vlm(current_id=s.last_node_id)
+    prior_question = s.pending_question
+
+    vlm_resp = vlm_decide(
+        image_path=s.last_photo_path,
+        goal=s.goal,
+        goal_objects=s.goal_objects,
+        topomap_summary=topomap_summary,
+        detections_summary=detections_summary,
+        prior_question=prior_question,
+        prior_answer=req.answer,
+    )
+
+    s.history.append({
+        "kind": "answer",
+        "user_answer": req.answer,
+        "vlm_action": vlm_resp.action.value,
+        "vlm_guidance": vlm_resp.guidance,
+    })
+
+    s.pending_question = None
+    if vlm_resp.action == VLMAction.ARRIVED:
+        s.arrived = True
+        s.goal_node = s.last_node_id
+        s.last_planned_action = None
+    elif vlm_resp.action == VLMAction.ASK:
+        s.pending_question = vlm_resp.question
+    else:
+        s.last_planned_action = vlm_resp.guidance
+
+    return TurnResponse(
+        action=vlm_resp.action,
+        guidance=vlm_resp.guidance,
+        question=vlm_resp.question,
+        node_id=s.last_node_id,
+        annotated_photo_url=f"/session/{session_id}/photo/{s.last_node_id}.jpg",
     )
