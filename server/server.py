@@ -15,7 +15,6 @@ from server.goal_decomposer import decompose_goal
 from server.models import (
     AnswerRequest,
     ErrorResponse,
-    NavigationResult,
     StartSessionRequest,
     StartSessionResponse,
     TurnResponse,
@@ -252,41 +251,3 @@ def serve_annotated_photo(session_id: str, node_id: int):
     if not p.exists():
         raise HTTPException(status_code=404, detail={"error": "photo_not_found", "detail": str(p)})
     return FileResponse(str(p), media_type="image/jpeg")
-
-
-# ---------------------------------------------------------------------------
-# Static store navigation endpoints (no GroundingDINO / Ollama required)
-# ---------------------------------------------------------------------------
-
-@app.get("/store/find")
-def store_find_product(q: str = Query(..., description="Product name to search for")):
-    """Find a product in the store and get step-by-step navigation directions."""
-    from server.navigator import navigate_to_product
-
-    result = navigate_to_product(q)
-    if result is None:
-        raise HTTPException(
-            status_code=404,
-            detail={"error": "product_not_found", "detail": f"No match for '{q}'"},
-        )
-    return result
-
-
-@app.get("/store/map")
-def store_map(format: str = Query(default="json")):
-    """Get the pre-built store topological map."""
-    from server.store_map import get_store_topomap
-
-    topo = get_store_topomap()
-    if format == "png":
-        png = topo.render_png()
-        return Response(content=png, media_type="image/png")
-    return topo.to_dict(current_node=None, goal_node=None)
-
-
-@app.get("/store/aisles")
-def store_aisles():
-    """List all store aisles with their categories."""
-    from server.store_knowledge import get_all_aisles, get_all_zones
-
-    return {"aisles": get_all_aisles(), "zones": get_all_zones()}

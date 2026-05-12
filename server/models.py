@@ -73,17 +73,6 @@ class MapJSON(BaseModel):
     goal_node: Optional[int]
 
 
-class NavigationResult(BaseModel):
-    query: str
-    matched_products: List[str]
-    location: str
-    location_zh: str
-    directions: List[str]
-    aisle_number: Optional[int] = None
-    zone: Optional[str] = None
-    confidence: float
-
-
 class ErrorResponse(BaseModel):
     error: str
     detail: str
