@@ -1,0 +1,5506 @@
+{
+  "photos": [
+    {
+      "filename": "IMG_1432.jpg",
+      "objects": [
+        {
+          "label": "banner",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "banner, door, cabinet, sign"
+    },
+    {
+      "filename": "IMG_1433.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "locker",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "bulletin board",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "door, locker, bulletin board, sofa"
+    },
+    {
+      "filename": "IMG_1434.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "bulletin board",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "locker",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "sofa, bulletin board, cabinet, locker, plant"
+    },
+    {
+      "filename": "IMG_1435.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, cabinet, plant, door"
+    },
+    {
+      "filename": "IMG_1436.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "coffee machine",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, door, coffee machine"
+    },
+    {
+      "filename": "IMG_1437.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "locker",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sofa, cabinet, locker, plant"
+    },
+    {
+      "filename": "IMG_1438.jpg",
+      "objects": [
+        {
+          "label": "espresso machine",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "refrigerator",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "espresso machine, refrigerator, cabinet, door"
+    },
+    {
+      "filename": "IMG_1439.jpg",
+      "objects": [
+        {
+          "label": "espresso machine",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "espresso machine, cabinet, door"
+    },
+    {
+      "filename": "IMG_1440.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "desk",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.75,
+          "box": []
+        },
+        {
+          "label": "chair",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "sofa, desk, cabinet, door, plant, chair"
+    },
+    {
+      "filename": "IMG_1441.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "espresso machine",
+          "score": 0.75,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "door, cabinet, espresso machine, sign"
+    },
+    {
+      "filename": "IMG_1442.jpg",
+      "objects": [
+        {
+          "label": "sign",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "coffee machine",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sign, door, coffee machine"
+    },
+    {
+      "filename": "IMG_1443.jpg",
+      "objects": [
+        {
+          "label": "chair",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "chair, table, sofa"
+    },
+    {
+      "filename": "IMG_1444.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "chair",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sofa, chair, table, cabinet"
+    },
+    {
+      "filename": "IMG_1445.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, fire extinguisher, bucket"
+    },
+    {
+      "filename": "IMG_1446.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1447.jpg",
+      "objects": [
+        {
+          "label": "locker",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "locker, water dispenser, cabinet"
+    },
+    {
+      "filename": "IMG_1448.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, cabinet, plant"
+    },
+    {
+      "filename": "IMG_1449.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "trophy",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, trophy, sofa, door"
+    },
+    {
+      "filename": "IMG_1450.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, poster, sofa, door"
+    },
+    {
+      "filename": "IMG_1451.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, plant, door"
+    },
+    {
+      "filename": "IMG_1452.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "sofa, door, cabinet, plant"
+    },
+    {
+      "filename": "IMG_1453.jpg",
+      "objects": [
+        {
+          "label": "printer",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "desk",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "chair",
+          "score": 0.75,
+          "box": []
+        },
+        {
+          "label": "computer",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "printer, water dispenser, cabinet, desk, chair, computer"
+    },
+    {
+      "filename": "IMG_1454.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.7,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "door, cabinet, sofa, poster"
+    },
+    {
+      "filename": "IMG_1455.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1456.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, poster, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1457.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, poster, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1458.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1459.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1460.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1461.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "desk",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "chair",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "computer",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, desk, chair, computer"
+    },
+    {
+      "filename": "IMG_1462.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1463.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1464.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door"
+    },
+    {
+      "filename": "IMG_1465.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1466.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "bookshelf",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "refrigerator",
+          "score": 0.6,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, bookshelf, refrigerator"
+    },
+    {
+      "filename": "IMG_1467.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door, cabinet"
+    },
+    {
+      "filename": "IMG_1468.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, sign"
+    },
+    {
+      "filename": "IMG_1469.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "refrigerator",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "fire hydrant",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, refrigerator, fire hydrant, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1470.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, sign"
+    },
+    {
+      "filename": "IMG_1471.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "cabinet"
+    },
+    {
+      "filename": "IMG_1472.jpg",
+      "objects": [
+        {
+          "label": "refrigerator",
+          "score": 0.98,
+          "box": []
+        },
+        {
+          "label": "fire hydrant",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "refrigerator, fire hydrant, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1473.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, bucket"
+    },
+    {
+      "filename": "IMG_1474.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, poster, bucket"
+    },
+    {
+      "filename": "IMG_1475.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "door, bucket, poster"
+    },
+    {
+      "filename": "IMG_1476.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, bucket"
+    },
+    {
+      "filename": "IMG_1477.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1478.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, bucket, poster"
+    },
+    {
+      "filename": "IMG_1479.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, bucket, poster"
+    },
+    {
+      "filename": "IMG_1480.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.7,
+          "box": []
+        },
+        {
+          "label": "refrigerator",
+          "score": 0.6,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, water dispenser, refrigerator, bucket"
+    },
+    {
+      "filename": "IMG_1481.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, bucket"
+    },
+    {
+      "filename": "IMG_1482.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "door, water dispenser"
+    },
+    {
+      "filename": "IMG_1483.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "espresso machine",
+          "score": 0.65,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.7,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, espresso machine, water dispenser, bucket"
+    },
+    {
+      "filename": "IMG_1484.jpg",
+      "objects": [
+        {
+          "label": "fire extinguisher",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "fire extinguisher, door, sign"
+    },
+    {
+      "filename": "IMG_1485.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1486.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "printer",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, cabinet, printer"
+    },
+    {
+      "filename": "IMG_1487.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, cabinet, plant"
+    },
+    {
+      "filename": "IMG_1432.jpg",
+      "objects": [
+        {
+          "label": "banner",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "banner, door, cabinet, sign"
+    },
+    {
+      "filename": "IMG_1433.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "locker",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "bulletin board",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "door, locker, bulletin board, sofa"
+    },
+    {
+      "filename": "IMG_1434.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "bulletin board",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "locker",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "sofa, bulletin board, cabinet, locker, plant"
+    },
+    {
+      "filename": "IMG_1435.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, cabinet, plant, door"
+    },
+    {
+      "filename": "IMG_1436.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "coffee machine",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, door, coffee machine"
+    },
+    {
+      "filename": "IMG_1437.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "locker",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sofa, cabinet, locker, plant"
+    },
+    {
+      "filename": "IMG_1438.jpg",
+      "objects": [
+        {
+          "label": "espresso machine",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "refrigerator",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "espresso machine, refrigerator, cabinet, door"
+    },
+    {
+      "filename": "IMG_1439.jpg",
+      "objects": [
+        {
+          "label": "espresso machine",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "espresso machine, cabinet, door"
+    },
+    {
+      "filename": "IMG_1440.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "desk",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.75,
+          "box": []
+        },
+        {
+          "label": "chair",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "sofa, desk, cabinet, door, plant, chair"
+    },
+    {
+      "filename": "IMG_1441.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "espresso machine",
+          "score": 0.75,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "door, cabinet, espresso machine, sign"
+    },
+    {
+      "filename": "IMG_1442.jpg",
+      "objects": [
+        {
+          "label": "sign",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "coffee machine",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sign, door, coffee machine"
+    },
+    {
+      "filename": "IMG_1443.jpg",
+      "objects": [
+        {
+          "label": "chair",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "chair, table, sofa"
+    },
+    {
+      "filename": "IMG_1444.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "chair",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sofa, chair, table, cabinet"
+    },
+    {
+      "filename": "IMG_1445.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, fire extinguisher, bucket"
+    },
+    {
+      "filename": "IMG_1446.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1447.jpg",
+      "objects": [
+        {
+          "label": "locker",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "locker, water dispenser, cabinet"
+    },
+    {
+      "filename": "IMG_1448.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, cabinet, plant"
+    },
+    {
+      "filename": "IMG_1449.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "trophy",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, trophy, sofa, door"
+    },
+    {
+      "filename": "IMG_1450.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, poster, sofa, door"
+    },
+    {
+      "filename": "IMG_1451.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, plant, door"
+    },
+    {
+      "filename": "IMG_1452.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "sofa, door, cabinet, plant"
+    },
+    {
+      "filename": "IMG_1453.jpg",
+      "objects": [
+        {
+          "label": "printer",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "desk",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "chair",
+          "score": 0.75,
+          "box": []
+        },
+        {
+          "label": "computer",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "printer, water dispenser, cabinet, desk, chair, computer"
+    },
+    {
+      "filename": "IMG_1454.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "sofa",
+          "score": 0.7,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "door, cabinet, sofa, poster"
+    },
+    {
+      "filename": "IMG_1455.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1456.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, poster, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1457.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, poster, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1458.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1459.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1460.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1461.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "desk",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "chair",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "computer",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, desk, chair, computer"
+    },
+    {
+      "filename": "IMG_1462.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1463.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1464.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door"
+    },
+    {
+      "filename": "IMG_1465.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1466.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.95,
+          "box": []
+        },
+        {
+          "label": "bookshelf",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "refrigerator",
+          "score": 0.6,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, bookshelf, refrigerator"
+    },
+    {
+      "filename": "IMG_1467.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door, cabinet"
+    },
+    {
+      "filename": "IMG_1468.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, sign"
+    },
+    {
+      "filename": "IMG_1469.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "refrigerator",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "fire hydrant",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, refrigerator, fire hydrant, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1470.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "cabinet, sign"
+    },
+    {
+      "filename": "IMG_1471.jpg",
+      "objects": [
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "cabinet"
+    },
+    {
+      "filename": "IMG_1472.jpg",
+      "objects": [
+        {
+          "label": "refrigerator",
+          "score": 0.98,
+          "box": []
+        },
+        {
+          "label": "fire hydrant",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "refrigerator, fire hydrant, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1473.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, bucket"
+    },
+    {
+      "filename": "IMG_1474.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, poster, bucket"
+    },
+    {
+      "filename": "IMG_1475.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.75,
+          "box": []
+        }
+      ],
+      "summary": "door, bucket, poster"
+    },
+    {
+      "filename": "IMG_1476.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, bucket"
+    },
+    {
+      "filename": "IMG_1477.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door, sign"
+    },
+    {
+      "filename": "IMG_1478.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "door, bucket, poster"
+    },
+    {
+      "filename": "IMG_1479.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "poster",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, bucket, poster"
+    },
+    {
+      "filename": "IMG_1480.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.7,
+          "box": []
+        },
+        {
+          "label": "refrigerator",
+          "score": 0.6,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, water dispenser, refrigerator, bucket"
+    },
+    {
+      "filename": "IMG_1481.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, bucket"
+    },
+    {
+      "filename": "IMG_1482.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "door, water dispenser"
+    },
+    {
+      "filename": "IMG_1483.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.8,
+          "box": []
+        },
+        {
+          "label": "espresso machine",
+          "score": 0.65,
+          "box": []
+        },
+        {
+          "label": "water dispenser",
+          "score": 0.7,
+          "box": []
+        },
+        {
+          "label": "bucket",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, espresso machine, water dispenser, bucket"
+    },
+    {
+      "filename": "IMG_1484.jpg",
+      "objects": [
+        {
+          "label": "fire extinguisher",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "door",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        }
+      ],
+      "summary": "fire extinguisher, door, sign"
+    },
+    {
+      "filename": "IMG_1485.jpg",
+      "objects": [
+        {
+          "label": "door",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "sign",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "fire extinguisher",
+          "score": 0.9,
+          "box": []
+        }
+      ],
+      "summary": "door, sign, fire extinguisher"
+    },
+    {
+      "filename": "IMG_1486.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "printer",
+          "score": 0.7,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, cabinet, printer"
+    },
+    {
+      "filename": "IMG_1487.jpg",
+      "objects": [
+        {
+          "label": "sofa",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "table",
+          "score": 0.85,
+          "box": []
+        },
+        {
+          "label": "cabinet",
+          "score": 0.9,
+          "box": []
+        },
+        {
+          "label": "plant",
+          "score": 0.8,
+          "box": []
+        }
+      ],
+      "summary": "sofa, table, cabinet, plant"
+    }
+  ],
+  "object_index": {
+    "banner": {
+      "photos": [
+        "IMG_1432.jpg",
+        "IMG_1432.jpg"
+      ],
+      "total_count": 2,
+      "best_score": 0.95,
+      "best_photo": "IMG_1432.jpg"
+    },
+    "bookshelf": {
+      "photos": [
+        "IMG_1466.jpg",
+        "IMG_1466.jpg"
+      ],
+      "total_count": 2,
+      "best_score": 0.85,
+      "best_photo": "IMG_1466.jpg"
+    },
+    "bucket": {
+      "photos": [
+        "IMG_1445.jpg",
+        "IMG_1473.jpg",
+        "IMG_1474.jpg",
+        "IMG_1475.jpg",
+        "IMG_1476.jpg",
+        "IMG_1478.jpg",
+        "IMG_1479.jpg",
+        "IMG_1480.jpg",
+        "IMG_1481.jpg",
+        "IMG_1483.jpg",
+        "IMG_1445.jpg",
+        "IMG_1473.jpg",
+        "IMG_1474.jpg",
+        "IMG_1475.jpg",
+        "IMG_1476.jpg",
+        "IMG_1478.jpg",
+        "IMG_1479.jpg",
+        "IMG_1480.jpg",
+        "IMG_1481.jpg",
+        "IMG_1483.jpg"
+      ],
+      "total_count": 20,
+      "best_score": 0.8,
+      "best_photo": "IMG_1445.jpg"
+    },
+    "bulletin board": {
+      "photos": [
+        "IMG_1433.jpg",
+        "IMG_1434.jpg",
+        "IMG_1433.jpg",
+        "IMG_1434.jpg"
+      ],
+      "total_count": 4,
+      "best_score": 0.85,
+      "best_photo": "IMG_1433.jpg"
+    },
+    "cabinet": {
+      "photos": [
+        "IMG_1432.jpg",
+        "IMG_1434.jpg",
+        "IMG_1435.jpg",
+        "IMG_1436.jpg",
+        "IMG_1437.jpg",
+        "IMG_1438.jpg",
+        "IMG_1439.jpg",
+        "IMG_1440.jpg",
+        "IMG_1441.jpg",
+        "IMG_1444.jpg",
+        "IMG_1447.jpg",
+        "IMG_1448.jpg",
+        "IMG_1449.jpg",
+        "IMG_1450.jpg",
+        "IMG_1452.jpg",
+        "IMG_1453.jpg",
+        "IMG_1454.jpg",
+        "IMG_1466.jpg",
+        "IMG_1467.jpg",
+        "IMG_1468.jpg",
+        "IMG_1469.jpg",
+        "IMG_1470.jpg",
+        "IMG_1471.jpg",
+        "IMG_1486.jpg",
+        "IMG_1487.jpg",
+        "IMG_1432.jpg",
+        "IMG_1434.jpg",
+        "IMG_1435.jpg",
+        "IMG_1436.jpg",
+        "IMG_1437.jpg",
+        "IMG_1438.jpg",
+        "IMG_1439.jpg",
+        "IMG_1440.jpg",
+        "IMG_1441.jpg",
+        "IMG_1444.jpg",
+        "IMG_1447.jpg",
+        "IMG_1448.jpg",
+        "IMG_1449.jpg",
+        "IMG_1450.jpg",
+        "IMG_1452.jpg",
+        "IMG_1453.jpg",
+        "IMG_1454.jpg",
+        "IMG_1466.jpg",
+        "IMG_1467.jpg",
+        "IMG_1468.jpg",
+        "IMG_1469.jpg",
+        "IMG_1470.jpg",
+        "IMG_1471.jpg",
+        "IMG_1486.jpg",
+        "IMG_1487.jpg"
+      ],
+      "total_count": 50,
+      "best_score": 0.95,
+      "best_photo": "IMG_1466.jpg"
+    },
+    "chair": {
+      "photos": [
+        "IMG_1440.jpg",
+        "IMG_1443.jpg",
+        "IMG_1444.jpg",
+        "IMG_1453.jpg",
+        "IMG_1461.jpg",
+        "IMG_1440.jpg",
+        "IMG_1443.jpg",
+        "IMG_1444.jpg",
+        "IMG_1453.jpg",
+        "IMG_1461.jpg"
+      ],
+      "total_count": 10,
+      "best_score": 0.9,
+      "best_photo": "IMG_1443.jpg"
+    },
+    "coffee machine": {
+      "photos": [
+        "IMG_1436.jpg",
+        "IMG_1442.jpg",
+        "IMG_1436.jpg",
+        "IMG_1442.jpg"
+      ],
+      "total_count": 4,
+      "best_score": 0.8,
+      "best_photo": "IMG_1442.jpg"
+    },
+    "computer": {
+      "photos": [
+        "IMG_1453.jpg",
+        "IMG_1461.jpg",
+        "IMG_1453.jpg",
+        "IMG_1461.jpg"
+      ],
+      "total_count": 4,
+      "best_score": 0.75,
+      "best_photo": "IMG_1461.jpg"
+    },
+    "desk": {
+      "photos": [
+        "IMG_1440.jpg",
+        "IMG_1453.jpg",
+        "IMG_1461.jpg",
+        "IMG_1440.jpg",
+        "IMG_1453.jpg",
+        "IMG_1461.jpg"
+      ],
+      "total_count": 6,
+      "best_score": 0.8,
+      "best_photo": "IMG_1440.jpg"
+    },
+    "door": {
+      "photos": [
+        "IMG_1432.jpg",
+        "IMG_1433.jpg",
+        "IMG_1435.jpg",
+        "IMG_1436.jpg",
+        "IMG_1438.jpg",
+        "IMG_1439.jpg",
+        "IMG_1440.jpg",
+        "IMG_1441.jpg",
+        "IMG_1442.jpg",
+        "IMG_1445.jpg",
+        "IMG_1446.jpg",
+        "IMG_1449.jpg",
+        "IMG_1450.jpg",
+        "IMG_1451.jpg",
+        "IMG_1452.jpg",
+        "IMG_1454.jpg",
+        "IMG_1455.jpg",
+        "IMG_1456.jpg",
+        "IMG_1457.jpg",
+        "IMG_1458.jpg",
+        "IMG_1459.jpg",
+        "IMG_1460.jpg",
+        "IMG_1461.jpg",
+        "IMG_1462.jpg",
+        "IMG_1463.jpg",
+        "IMG_1464.jpg",
+        "IMG_1465.jpg",
+        "IMG_1467.jpg",
+        "IMG_1473.jpg",
+        "IMG_1474.jpg",
+        "IMG_1475.jpg",
+        "IMG_1476.jpg",
+        "IMG_1477.jpg",
+        "IMG_1478.jpg",
+        "IMG_1479.jpg",
+        "IMG_1480.jpg",
+        "IMG_1481.jpg",
+        "IMG_1482.jpg",
+        "IMG_1483.jpg",
+        "IMG_1484.jpg",
+        "IMG_1485.jpg",
+        "IMG_1432.jpg",
+        "IMG_1433.jpg",
+        "IMG_1435.jpg",
+        "IMG_1436.jpg",
+        "IMG_1438.jpg",
+        "IMG_1439.jpg",
+        "IMG_1440.jpg",
+        "IMG_1441.jpg",
+        "IMG_1442.jpg",
+        "IMG_1445.jpg",
+        "IMG_1446.jpg",
+        "IMG_1449.jpg",
+        "IMG_1450.jpg",
+        "IMG_1451.jpg",
+        "IMG_1452.jpg",
+        "IMG_1454.jpg",
+        "IMG_1455.jpg",
+        "IMG_1456.jpg",
+        "IMG_1457.jpg",
+        "IMG_1458.jpg",
+        "IMG_1459.jpg",
+        "IMG_1460.jpg",
+        "IMG_1461.jpg",
+        "IMG_1462.jpg",
+        "IMG_1463.jpg",
+        "IMG_1464.jpg",
+        "IMG_1465.jpg",
+        "IMG_1467.jpg",
+        "IMG_1473.jpg",
+        "IMG_1474.jpg",
+        "IMG_1475.jpg",
+        "IMG_1476.jpg",
+        "IMG_1477.jpg",
+        "IMG_1478.jpg",
+        "IMG_1479.jpg",
+        "IMG_1480.jpg",
+        "IMG_1481.jpg",
+        "IMG_1482.jpg",
+        "IMG_1483.jpg",
+        "IMG_1484.jpg",
+        "IMG_1485.jpg"
+      ],
+      "total_count": 82,
+      "best_score": 0.95,
+      "best_photo": "IMG_1442.jpg"
+    },
+    "espresso machine": {
+      "photos": [
+        "IMG_1438.jpg",
+        "IMG_1439.jpg",
+        "IMG_1441.jpg",
+        "IMG_1483.jpg",
+        "IMG_1438.jpg",
+        "IMG_1439.jpg",
+        "IMG_1441.jpg",
+        "IMG_1483.jpg"
+      ],
+      "total_count": 8,
+      "best_score": 0.95,
+      "best_photo": "IMG_1438.jpg"
+    },
+    "fire extinguisher": {
+      "photos": [
+        "IMG_1445.jpg",
+        "IMG_1456.jpg",
+        "IMG_1457.jpg",
+        "IMG_1458.jpg",
+        "IMG_1469.jpg",
+        "IMG_1472.jpg",
+        "IMG_1484.jpg",
+        "IMG_1485.jpg",
+        "IMG_1445.jpg",
+        "IMG_1456.jpg",
+        "IMG_1457.jpg",
+        "IMG_1458.jpg",
+        "IMG_1469.jpg",
+        "IMG_1472.jpg",
+        "IMG_1484.jpg",
+        "IMG_1485.jpg"
+      ],
+      "total_count": 16,
+      "best_score": 0.9,
+      "best_photo": "IMG_1445.jpg"
+    },
+    "fire hydrant": {
+      "photos": [
+        "IMG_1469.jpg",
+        "IMG_1472.jpg",
+        "IMG_1469.jpg",
+        "IMG_1472.jpg"
+      ],
+      "total_count": 4,
+      "best_score": 0.9,
+      "best_photo": "IMG_1472.jpg"
+    },
+    "locker": {
+      "photos": [
+        "IMG_1433.jpg",
+        "IMG_1434.jpg",
+        "IMG_1437.jpg",
+        "IMG_1447.jpg",
+        "IMG_1433.jpg",
+        "IMG_1434.jpg",
+        "IMG_1437.jpg",
+        "IMG_1447.jpg"
+      ],
+      "total_count": 8,
+      "best_score": 0.9,
+      "best_photo": "IMG_1433.jpg"
+    },
+    "plant": {
+      "photos": [
+        "IMG_1434.jpg",
+        "IMG_1435.jpg",
+        "IMG_1437.jpg",
+        "IMG_1440.jpg",
+        "IMG_1448.jpg",
+        "IMG_1451.jpg",
+        "IMG_1452.jpg",
+        "IMG_1487.jpg",
+        "IMG_1434.jpg",
+        "IMG_1435.jpg",
+        "IMG_1437.jpg",
+        "IMG_1440.jpg",
+        "IMG_1448.jpg",
+        "IMG_1451.jpg",
+        "IMG_1452.jpg",
+        "IMG_1487.jpg"
+      ],
+      "total_count": 16,
+      "best_score": 0.8,
+      "best_photo": "IMG_1435.jpg"
+    },
+    "poster": {
+      "photos": [
+        "IMG_1450.jpg",
+        "IMG_1454.jpg",
+        "IMG_1456.jpg",
+        "IMG_1457.jpg",
+        "IMG_1474.jpg",
+        "IMG_1475.jpg",
+        "IMG_1478.jpg",
+        "IMG_1479.jpg",
+        "IMG_1450.jpg",
+        "IMG_1454.jpg",
+        "IMG_1456.jpg",
+        "IMG_1457.jpg",
+        "IMG_1474.jpg",
+        "IMG_1475.jpg",
+        "IMG_1478.jpg",
+        "IMG_1479.jpg"
+      ],
+      "total_count": 16,
+      "best_score": 0.9,
+      "best_photo": "IMG_1457.jpg"
+    },
+    "printer": {
+      "photos": [
+        "IMG_1453.jpg",
+        "IMG_1486.jpg",
+        "IMG_1453.jpg",
+        "IMG_1486.jpg"
+      ],
+      "total_count": 4,
+      "best_score": 0.9,
+      "best_photo": "IMG_1453.jpg"
+    },
+    "refrigerator": {
+      "photos": [
+        "IMG_1438.jpg",
+        "IMG_1466.jpg",
+        "IMG_1469.jpg",
+        "IMG_1472.jpg",
+        "IMG_1480.jpg",
+        "IMG_1438.jpg",
+        "IMG_1466.jpg",
+        "IMG_1469.jpg",
+        "IMG_1472.jpg",
+        "IMG_1480.jpg"
+      ],
+      "total_count": 10,
+      "best_score": 0.98,
+      "best_photo": "IMG_1472.jpg"
+    },
+    "sign": {
+      "photos": [
+        "IMG_1432.jpg",
+        "IMG_1441.jpg",
+        "IMG_1442.jpg",
+        "IMG_1445.jpg",
+        "IMG_1446.jpg",
+        "IMG_1455.jpg",
+        "IMG_1456.jpg",
+        "IMG_1457.jpg",
+        "IMG_1458.jpg",
+        "IMG_1459.jpg",
+        "IMG_1460.jpg",
+        "IMG_1461.jpg",
+        "IMG_1462.jpg",
+        "IMG_1463.jpg",
+        "IMG_1465.jpg",
+        "IMG_1468.jpg",
+        "IMG_1470.jpg",
+        "IMG_1473.jpg",
+        "IMG_1474.jpg",
+        "IMG_1476.jpg",
+        "IMG_1477.jpg",
+        "IMG_1479.jpg",
+        "IMG_1481.jpg",
+        "IMG_1483.jpg",
+        "IMG_1484.jpg",
+        "IMG_1485.jpg",
+        "IMG_1432.jpg",
+        "IMG_1441.jpg",
+        "IMG_1442.jpg",
+        "IMG_1445.jpg",
+        "IMG_1446.jpg",
+        "IMG_1455.jpg",
+        "IMG_1456.jpg",
+        "IMG_1457.jpg",
+        "IMG_1458.jpg",
+        "IMG_1459.jpg",
+        "IMG_1460.jpg",
+        "IMG_1461.jpg",
+        "IMG_1462.jpg",
+        "IMG_1463.jpg",
+        "IMG_1465.jpg",
+        "IMG_1468.jpg",
+        "IMG_1470.jpg",
+        "IMG_1473.jpg",
+        "IMG_1474.jpg",
+        "IMG_1476.jpg",
+        "IMG_1477.jpg",
+        "IMG_1479.jpg",
+        "IMG_1481.jpg",
+        "IMG_1483.jpg",
+        "IMG_1484.jpg",
+        "IMG_1485.jpg"
+      ],
+      "total_count": 52,
+      "best_score": 0.95,
+      "best_photo": "IMG_1442.jpg"
+    },
+    "sofa": {
+      "photos": [
+        "IMG_1433.jpg",
+        "IMG_1434.jpg",
+        "IMG_1435.jpg",
+        "IMG_1437.jpg",
+        "IMG_1440.jpg",
+        "IMG_1443.jpg",
+        "IMG_1444.jpg",
+        "IMG_1448.jpg",
+        "IMG_1449.jpg",
+        "IMG_1450.jpg",
+        "IMG_1451.jpg",
+        "IMG_1452.jpg",
+        "IMG_1454.jpg",
+        "IMG_1486.jpg",
+        "IMG_1487.jpg",
+        "IMG_1433.jpg",
+        "IMG_1434.jpg",
+        "IMG_1435.jpg",
+        "IMG_1437.jpg",
+        "IMG_1440.jpg",
+        "IMG_1443.jpg",
+        "IMG_1444.jpg",
+        "IMG_1448.jpg",
+        "IMG_1449.jpg",
+        "IMG_1450.jpg",
+        "IMG_1451.jpg",
+        "IMG_1452.jpg",
+        "IMG_1454.jpg",
+        "IMG_1486.jpg",
+        "IMG_1487.jpg"
+      ],
+      "total_count": 30,
+      "best_score": 0.9,
+      "best_photo": "IMG_1435.jpg"
+    },
+    "table": {
+      "photos": [
+        "IMG_1435.jpg",
+        "IMG_1443.jpg",
+        "IMG_1444.jpg",
+        "IMG_1448.jpg",
+        "IMG_1451.jpg",
+        "IMG_1486.jpg",
+        "IMG_1487.jpg",
+        "IMG_1435.jpg",
+        "IMG_1443.jpg",
+        "IMG_1444.jpg",
+        "IMG_1448.jpg",
+        "IMG_1451.jpg",
+        "IMG_1486.jpg",
+        "IMG_1487.jpg"
+      ],
+      "total_count": 14,
+      "best_score": 0.9,
+      "best_photo": "IMG_1443.jpg"
+    },
+    "trophy": {
+      "photos": [
+        "IMG_1449.jpg",
+        "IMG_1449.jpg"
+      ],
+      "total_count": 2,
+      "best_score": 0.85,
+      "best_photo": "IMG_1449.jpg"
+    },
+    "water dispenser": {
+      "photos": [
+        "IMG_1447.jpg",
+        "IMG_1453.jpg",
+        "IMG_1480.jpg",
+        "IMG_1482.jpg",
+        "IMG_1483.jpg",
+        "IMG_1447.jpg",
+        "IMG_1453.jpg",
+        "IMG_1480.jpg",
+        "IMG_1482.jpg",
+        "IMG_1483.jpg"
+      ],
+      "total_count": 10,
+      "best_score": 0.95,
+      "best_photo": "IMG_1447.jpg"
+    }
+  },
+  "photo_edges": [
+    {
+      "from": "IMG_1432.jpg",
+      "to": "IMG_1433.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1432.jpg",
+      "to": "IMG_1434.jpg",
+      "similarity": 0.125,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1432.jpg",
+      "to": "IMG_1435.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1433.jpg",
+      "to": "IMG_1434.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bulletin board",
+        "locker",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1433.jpg",
+      "to": "IMG_1435.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1433.jpg",
+      "to": "IMG_1436.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1434.jpg",
+      "to": "IMG_1435.jpg",
+      "similarity": 0.429,
+      "shared_objects": [
+        "cabinet",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1434.jpg",
+      "to": "IMG_1436.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1434.jpg",
+      "to": "IMG_1437.jpg",
+      "similarity": 0.8,
+      "shared_objects": [
+        "cabinet",
+        "locker",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1435.jpg",
+      "to": "IMG_1436.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1435.jpg",
+      "to": "IMG_1437.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1435.jpg",
+      "to": "IMG_1438.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1436.jpg",
+      "to": "IMG_1437.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1436.jpg",
+      "to": "IMG_1438.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1436.jpg",
+      "to": "IMG_1439.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1437.jpg",
+      "to": "IMG_1438.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1437.jpg",
+      "to": "IMG_1439.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1437.jpg",
+      "to": "IMG_1440.jpg",
+      "similarity": 0.429,
+      "shared_objects": [
+        "cabinet",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1438.jpg",
+      "to": "IMG_1439.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "espresso machine"
+      ]
+    },
+    {
+      "from": "IMG_1438.jpg",
+      "to": "IMG_1440.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1438.jpg",
+      "to": "IMG_1441.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "espresso machine"
+      ]
+    },
+    {
+      "from": "IMG_1439.jpg",
+      "to": "IMG_1440.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1439.jpg",
+      "to": "IMG_1441.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "espresso machine"
+      ]
+    },
+    {
+      "from": "IMG_1439.jpg",
+      "to": "IMG_1442.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1440.jpg",
+      "to": "IMG_1441.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1440.jpg",
+      "to": "IMG_1442.jpg",
+      "similarity": 0.125,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1440.jpg",
+      "to": "IMG_1443.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "chair",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1441.jpg",
+      "to": "IMG_1442.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1441.jpg",
+      "to": "IMG_1444.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1442.jpg",
+      "to": "IMG_1445.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1443.jpg",
+      "to": "IMG_1444.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "chair",
+        "sofa",
+        "table"
+      ]
+    },
+    {
+      "from": "IMG_1444.jpg",
+      "to": "IMG_1447.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1445.jpg",
+      "to": "IMG_1446.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1446.jpg",
+      "to": "IMG_1449.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1447.jpg",
+      "to": "IMG_1448.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1447.jpg",
+      "to": "IMG_1449.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1447.jpg",
+      "to": "IMG_1450.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1448.jpg",
+      "to": "IMG_1449.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1448.jpg",
+      "to": "IMG_1450.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1448.jpg",
+      "to": "IMG_1451.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "plant",
+        "sofa",
+        "table"
+      ]
+    },
+    {
+      "from": "IMG_1449.jpg",
+      "to": "IMG_1450.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1449.jpg",
+      "to": "IMG_1451.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1449.jpg",
+      "to": "IMG_1452.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1450.jpg",
+      "to": "IMG_1451.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1450.jpg",
+      "to": "IMG_1452.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1450.jpg",
+      "to": "IMG_1453.jpg",
+      "similarity": 0.111,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1451.jpg",
+      "to": "IMG_1452.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "door",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1451.jpg",
+      "to": "IMG_1454.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1452.jpg",
+      "to": "IMG_1453.jpg",
+      "similarity": 0.111,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1452.jpg",
+      "to": "IMG_1454.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1452.jpg",
+      "to": "IMG_1455.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1453.jpg",
+      "to": "IMG_1454.jpg",
+      "similarity": 0.111,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1454.jpg",
+      "to": "IMG_1455.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1454.jpg",
+      "to": "IMG_1456.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1454.jpg",
+      "to": "IMG_1457.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1455.jpg",
+      "to": "IMG_1456.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1455.jpg",
+      "to": "IMG_1457.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1455.jpg",
+      "to": "IMG_1458.jpg",
+      "similarity": 0.667,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1456.jpg",
+      "to": "IMG_1457.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "fire extinguisher",
+        "poster",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1456.jpg",
+      "to": "IMG_1458.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "door",
+        "fire extinguisher",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1456.jpg",
+      "to": "IMG_1459.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1457.jpg",
+      "to": "IMG_1458.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "door",
+        "fire extinguisher",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1457.jpg",
+      "to": "IMG_1459.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1457.jpg",
+      "to": "IMG_1460.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1458.jpg",
+      "to": "IMG_1459.jpg",
+      "similarity": 0.667,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1458.jpg",
+      "to": "IMG_1460.jpg",
+      "similarity": 0.667,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1458.jpg",
+      "to": "IMG_1461.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1459.jpg",
+      "to": "IMG_1460.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1459.jpg",
+      "to": "IMG_1461.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1459.jpg",
+      "to": "IMG_1462.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1460.jpg",
+      "to": "IMG_1461.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1460.jpg",
+      "to": "IMG_1462.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1460.jpg",
+      "to": "IMG_1463.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1461.jpg",
+      "to": "IMG_1462.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1461.jpg",
+      "to": "IMG_1463.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1461.jpg",
+      "to": "IMG_1464.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1462.jpg",
+      "to": "IMG_1463.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1462.jpg",
+      "to": "IMG_1464.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1462.jpg",
+      "to": "IMG_1465.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1463.jpg",
+      "to": "IMG_1464.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1463.jpg",
+      "to": "IMG_1465.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1464.jpg",
+      "to": "IMG_1465.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1464.jpg",
+      "to": "IMG_1467.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1465.jpg",
+      "to": "IMG_1467.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1465.jpg",
+      "to": "IMG_1468.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1466.jpg",
+      "to": "IMG_1467.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1466.jpg",
+      "to": "IMG_1468.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1466.jpg",
+      "to": "IMG_1469.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "cabinet",
+        "refrigerator"
+      ]
+    },
+    {
+      "from": "IMG_1467.jpg",
+      "to": "IMG_1468.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1467.jpg",
+      "to": "IMG_1469.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1467.jpg",
+      "to": "IMG_1470.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1468.jpg",
+      "to": "IMG_1469.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1468.jpg",
+      "to": "IMG_1470.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "cabinet",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1468.jpg",
+      "to": "IMG_1471.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1469.jpg",
+      "to": "IMG_1470.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1469.jpg",
+      "to": "IMG_1471.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1469.jpg",
+      "to": "IMG_1472.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "fire extinguisher",
+        "fire hydrant",
+        "refrigerator"
+      ]
+    },
+    {
+      "from": "IMG_1470.jpg",
+      "to": "IMG_1471.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1470.jpg",
+      "to": "IMG_1473.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1473.jpg",
+      "to": "IMG_1474.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1473.jpg",
+      "to": "IMG_1475.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1473.jpg",
+      "to": "IMG_1476.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1474.jpg",
+      "to": "IMG_1475.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1474.jpg",
+      "to": "IMG_1476.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1474.jpg",
+      "to": "IMG_1477.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1475.jpg",
+      "to": "IMG_1476.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1475.jpg",
+      "to": "IMG_1477.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1475.jpg",
+      "to": "IMG_1478.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1476.jpg",
+      "to": "IMG_1477.jpg",
+      "similarity": 0.667,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1476.jpg",
+      "to": "IMG_1478.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1476.jpg",
+      "to": "IMG_1479.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1477.jpg",
+      "to": "IMG_1478.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1477.jpg",
+      "to": "IMG_1479.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1477.jpg",
+      "to": "IMG_1480.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1478.jpg",
+      "to": "IMG_1479.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1478.jpg",
+      "to": "IMG_1480.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1478.jpg",
+      "to": "IMG_1481.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1479.jpg",
+      "to": "IMG_1480.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1479.jpg",
+      "to": "IMG_1481.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1479.jpg",
+      "to": "IMG_1482.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1480.jpg",
+      "to": "IMG_1481.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1480.jpg",
+      "to": "IMG_1482.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "water dispenser"
+      ]
+    },
+    {
+      "from": "IMG_1480.jpg",
+      "to": "IMG_1483.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "water dispenser"
+      ]
+    },
+    {
+      "from": "IMG_1481.jpg",
+      "to": "IMG_1482.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1481.jpg",
+      "to": "IMG_1483.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1481.jpg",
+      "to": "IMG_1484.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1482.jpg",
+      "to": "IMG_1483.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "water dispenser"
+      ]
+    },
+    {
+      "from": "IMG_1482.jpg",
+      "to": "IMG_1484.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1482.jpg",
+      "to": "IMG_1485.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1483.jpg",
+      "to": "IMG_1484.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1483.jpg",
+      "to": "IMG_1485.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1484.jpg",
+      "to": "IMG_1485.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "fire extinguisher",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1485.jpg",
+      "to": "IMG_1432.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1486.jpg",
+      "to": "IMG_1487.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "sofa",
+        "table"
+      ]
+    },
+    {
+      "from": "IMG_1486.jpg",
+      "to": "IMG_1432.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1486.jpg",
+      "to": "IMG_1433.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1487.jpg",
+      "to": "IMG_1432.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1487.jpg",
+      "to": "IMG_1433.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1487.jpg",
+      "to": "IMG_1434.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1432.jpg",
+      "to": "IMG_1433.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1432.jpg",
+      "to": "IMG_1434.jpg",
+      "similarity": 0.125,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1432.jpg",
+      "to": "IMG_1435.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1433.jpg",
+      "to": "IMG_1434.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bulletin board",
+        "locker",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1433.jpg",
+      "to": "IMG_1435.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1433.jpg",
+      "to": "IMG_1436.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1434.jpg",
+      "to": "IMG_1435.jpg",
+      "similarity": 0.429,
+      "shared_objects": [
+        "cabinet",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1434.jpg",
+      "to": "IMG_1436.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1434.jpg",
+      "to": "IMG_1437.jpg",
+      "similarity": 0.8,
+      "shared_objects": [
+        "cabinet",
+        "locker",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1435.jpg",
+      "to": "IMG_1436.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1435.jpg",
+      "to": "IMG_1437.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1435.jpg",
+      "to": "IMG_1438.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1436.jpg",
+      "to": "IMG_1437.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1436.jpg",
+      "to": "IMG_1438.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1436.jpg",
+      "to": "IMG_1439.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1437.jpg",
+      "to": "IMG_1438.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1437.jpg",
+      "to": "IMG_1439.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1437.jpg",
+      "to": "IMG_1440.jpg",
+      "similarity": 0.429,
+      "shared_objects": [
+        "cabinet",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1438.jpg",
+      "to": "IMG_1439.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "espresso machine"
+      ]
+    },
+    {
+      "from": "IMG_1438.jpg",
+      "to": "IMG_1440.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1438.jpg",
+      "to": "IMG_1441.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "espresso machine"
+      ]
+    },
+    {
+      "from": "IMG_1439.jpg",
+      "to": "IMG_1440.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1439.jpg",
+      "to": "IMG_1441.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "espresso machine"
+      ]
+    },
+    {
+      "from": "IMG_1439.jpg",
+      "to": "IMG_1442.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1440.jpg",
+      "to": "IMG_1441.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1440.jpg",
+      "to": "IMG_1442.jpg",
+      "similarity": 0.125,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1440.jpg",
+      "to": "IMG_1443.jpg",
+      "similarity": 0.286,
+      "shared_objects": [
+        "chair",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1441.jpg",
+      "to": "IMG_1442.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1441.jpg",
+      "to": "IMG_1444.jpg",
+      "similarity": 0.143,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1442.jpg",
+      "to": "IMG_1445.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1443.jpg",
+      "to": "IMG_1444.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "chair",
+        "sofa",
+        "table"
+      ]
+    },
+    {
+      "from": "IMG_1444.jpg",
+      "to": "IMG_1447.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1445.jpg",
+      "to": "IMG_1446.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1446.jpg",
+      "to": "IMG_1449.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1447.jpg",
+      "to": "IMG_1448.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1447.jpg",
+      "to": "IMG_1449.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1447.jpg",
+      "to": "IMG_1450.jpg",
+      "similarity": 0.167,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1448.jpg",
+      "to": "IMG_1449.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1448.jpg",
+      "to": "IMG_1450.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1448.jpg",
+      "to": "IMG_1451.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "plant",
+        "sofa",
+        "table"
+      ]
+    },
+    {
+      "from": "IMG_1449.jpg",
+      "to": "IMG_1450.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1449.jpg",
+      "to": "IMG_1451.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1449.jpg",
+      "to": "IMG_1452.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1450.jpg",
+      "to": "IMG_1451.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1450.jpg",
+      "to": "IMG_1452.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1450.jpg",
+      "to": "IMG_1453.jpg",
+      "similarity": 0.111,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1451.jpg",
+      "to": "IMG_1452.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "door",
+        "plant",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1451.jpg",
+      "to": "IMG_1454.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1452.jpg",
+      "to": "IMG_1453.jpg",
+      "similarity": 0.111,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1452.jpg",
+      "to": "IMG_1454.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "door",
+        "sofa"
+      ]
+    },
+    {
+      "from": "IMG_1452.jpg",
+      "to": "IMG_1455.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1453.jpg",
+      "to": "IMG_1454.jpg",
+      "similarity": 0.111,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1454.jpg",
+      "to": "IMG_1455.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1454.jpg",
+      "to": "IMG_1456.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1454.jpg",
+      "to": "IMG_1457.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1455.jpg",
+      "to": "IMG_1456.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1455.jpg",
+      "to": "IMG_1457.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1455.jpg",
+      "to": "IMG_1458.jpg",
+      "similarity": 0.667,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1456.jpg",
+      "to": "IMG_1457.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "fire extinguisher",
+        "poster",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1456.jpg",
+      "to": "IMG_1458.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "door",
+        "fire extinguisher",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1456.jpg",
+      "to": "IMG_1459.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1457.jpg",
+      "to": "IMG_1458.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "door",
+        "fire extinguisher",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1457.jpg",
+      "to": "IMG_1459.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1457.jpg",
+      "to": "IMG_1460.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1458.jpg",
+      "to": "IMG_1459.jpg",
+      "similarity": 0.667,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1458.jpg",
+      "to": "IMG_1460.jpg",
+      "similarity": 0.667,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1458.jpg",
+      "to": "IMG_1461.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1459.jpg",
+      "to": "IMG_1460.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1459.jpg",
+      "to": "IMG_1461.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1459.jpg",
+      "to": "IMG_1462.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1460.jpg",
+      "to": "IMG_1461.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1460.jpg",
+      "to": "IMG_1462.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1460.jpg",
+      "to": "IMG_1463.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1461.jpg",
+      "to": "IMG_1462.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1461.jpg",
+      "to": "IMG_1463.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1461.jpg",
+      "to": "IMG_1464.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1462.jpg",
+      "to": "IMG_1463.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1462.jpg",
+      "to": "IMG_1464.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1462.jpg",
+      "to": "IMG_1465.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1463.jpg",
+      "to": "IMG_1464.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1463.jpg",
+      "to": "IMG_1465.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1464.jpg",
+      "to": "IMG_1465.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1464.jpg",
+      "to": "IMG_1467.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1465.jpg",
+      "to": "IMG_1467.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1465.jpg",
+      "to": "IMG_1468.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1466.jpg",
+      "to": "IMG_1467.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1466.jpg",
+      "to": "IMG_1468.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1466.jpg",
+      "to": "IMG_1469.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "cabinet",
+        "refrigerator"
+      ]
+    },
+    {
+      "from": "IMG_1467.jpg",
+      "to": "IMG_1468.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1467.jpg",
+      "to": "IMG_1469.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1467.jpg",
+      "to": "IMG_1470.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1468.jpg",
+      "to": "IMG_1469.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1468.jpg",
+      "to": "IMG_1470.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "cabinet",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1468.jpg",
+      "to": "IMG_1471.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1469.jpg",
+      "to": "IMG_1470.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1469.jpg",
+      "to": "IMG_1471.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1469.jpg",
+      "to": "IMG_1472.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "fire extinguisher",
+        "fire hydrant",
+        "refrigerator"
+      ]
+    },
+    {
+      "from": "IMG_1470.jpg",
+      "to": "IMG_1471.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "cabinet"
+      ]
+    },
+    {
+      "from": "IMG_1470.jpg",
+      "to": "IMG_1473.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1473.jpg",
+      "to": "IMG_1474.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1473.jpg",
+      "to": "IMG_1475.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1473.jpg",
+      "to": "IMG_1476.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1474.jpg",
+      "to": "IMG_1475.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1474.jpg",
+      "to": "IMG_1476.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1474.jpg",
+      "to": "IMG_1477.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1475.jpg",
+      "to": "IMG_1476.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1475.jpg",
+      "to": "IMG_1477.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1475.jpg",
+      "to": "IMG_1478.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1476.jpg",
+      "to": "IMG_1477.jpg",
+      "similarity": 0.667,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1476.jpg",
+      "to": "IMG_1478.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1476.jpg",
+      "to": "IMG_1479.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1477.jpg",
+      "to": "IMG_1478.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1477.jpg",
+      "to": "IMG_1479.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1477.jpg",
+      "to": "IMG_1480.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1478.jpg",
+      "to": "IMG_1479.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "poster"
+      ]
+    },
+    {
+      "from": "IMG_1478.jpg",
+      "to": "IMG_1480.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1478.jpg",
+      "to": "IMG_1481.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1479.jpg",
+      "to": "IMG_1480.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1479.jpg",
+      "to": "IMG_1481.jpg",
+      "similarity": 0.75,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1479.jpg",
+      "to": "IMG_1482.jpg",
+      "similarity": 0.2,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1480.jpg",
+      "to": "IMG_1481.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "bucket",
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1480.jpg",
+      "to": "IMG_1482.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "water dispenser"
+      ]
+    },
+    {
+      "from": "IMG_1480.jpg",
+      "to": "IMG_1483.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "water dispenser"
+      ]
+    },
+    {
+      "from": "IMG_1481.jpg",
+      "to": "IMG_1482.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1481.jpg",
+      "to": "IMG_1483.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "bucket",
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1481.jpg",
+      "to": "IMG_1484.jpg",
+      "similarity": 0.5,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1482.jpg",
+      "to": "IMG_1483.jpg",
+      "similarity": 0.4,
+      "shared_objects": [
+        "door",
+        "water dispenser"
+      ]
+    },
+    {
+      "from": "IMG_1482.jpg",
+      "to": "IMG_1484.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1482.jpg",
+      "to": "IMG_1485.jpg",
+      "similarity": 0.25,
+      "shared_objects": [
+        "door"
+      ]
+    },
+    {
+      "from": "IMG_1483.jpg",
+      "to": "IMG_1484.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1483.jpg",
+      "to": "IMG_1485.jpg",
+      "similarity": 0.333,
+      "shared_objects": [
+        "door",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1484.jpg",
+      "to": "IMG_1485.jpg",
+      "similarity": 1.0,
+      "shared_objects": [
+        "door",
+        "fire extinguisher",
+        "sign"
+      ]
+    },
+    {
+      "from": "IMG_1486.jpg",
+      "to": "IMG_1487.jpg",
+      "similarity": 0.6,
+      "shared_objects": [
+        "cabinet",
+        "sofa",
+        "table"
+      ]
+    }
+  ]
+}
