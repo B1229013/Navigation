@@ -1,0 +1,36 @@
+# Vendored UniGoal clone (working copy lives in WSL at /home/user/UniGoal/)
+UniGoal/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local secrets / overrides
+.env
+.env.local
+
+# Claude Code local config
+.claude/settings.local.json
+
+# Model weights (too large for git - download separately, see process.md)
+models/*.pth
+
+# Detection results (regenerate with batch_mapper)
+detections_*.json
+
+# Generated map images (regenerate with generate_topomap.py)
+topological_map*.png
+
+# Output sessions
+output/
